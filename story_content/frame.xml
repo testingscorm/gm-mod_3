@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npnxnanbnsnfns01011000111" textdirection="ltr" textengine="DirectWrite" device="true" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0xE32227">
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npnxnanbnsnfns01011000101" textdirection="ltr" textengine="DirectWrite" device="true" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0xE32227">
   <layouts>
-    <layout name="npnxnanbsnfns01011000111" font="Lato" controllayout="npnxnanbsnfns01011000111" colorscheme="npnxnanbnsnfns01011000111" string_table="npnxnanbnsnfns01011000111" />
-    <layout name="pxabnsnfns01011000111" font="Lato" controllayout="pxabnsnfns01011000111" colorscheme="npnxnanbnsnfns01011000111" string_table="npnxnanbnsnfns01011000111" />
-    <layout name="npxnabnsnfns01011000111" font="Lato" controllayout="npxnabnsnfns01011000111" colorscheme="npnxnanbnsnfns01011000111" string_table="npnxnanbnsnfns01011000111" />
-    <layout name="npnxnanbnsnfns01011000111" font="Lato" controllayout="npnxnanbnsnfns01011000111" colorscheme="npnxnanbnsnfns01011000111" string_table="npnxnanbnsnfns01011000111" />
-    <layout name="pxabnsnfns01011000110" font="Lato" controllayout="pxabnsnfns01011000110" colorscheme="npnxnanbnsnfns01011000111" string_table="npnxnanbnsnfns01011000111" />
-    <layout name="pnxanbnsnfns01011000111" font="Lato" controllayout="pnxanbnsnfns01011000111" colorscheme="npnxnanbnsnfns01011000111" string_table="npnxnanbnsnfns01011000111" />
+    <layout name="npnxnanbsnfns01011000101" font="Noto Sans Devanagari" controllayout="npnxnanbsnfns01011000101" colorscheme="npnxnanbnsnfns01011000101" string_table="npnxnanbnsnfns01011000101" />
+    <layout name="pxabnsnfns01011000101" font="Noto Sans Devanagari" controllayout="pxabnsnfns01011000101" colorscheme="npnxnanbnsnfns01011000101" string_table="npnxnanbnsnfns01011000101" />
+    <layout name="npxnabnsnfns01011000101" font="Noto Sans Devanagari" controllayout="npxnabnsnfns01011000101" colorscheme="npnxnanbnsnfns01011000101" string_table="npnxnanbnsnfns01011000101" />
+    <layout name="npnxnanbnsnfns01011000101" font="Noto Sans Devanagari" controllayout="npnxnanbnsnfns01011000101" colorscheme="npnxnanbnsnfns01011000101" string_table="npnxnanbnsnfns01011000101" />
+    <layout name="pxabnsnfns01011000100" font="Noto Sans Devanagari" controllayout="pxabnsnfns01011000100" colorscheme="npnxnanbnsnfns01011000101" string_table="npnxnanbnsnfns01011000101" />
+    <layout name="pnxanbnsnfns01011000101" font="Noto Sans Devanagari" controllayout="pnxanbnsnfns01011000101" colorscheme="npnxnanbnsnfns01011000101" string_table="npnxnanbnsnfns01011000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -20,7 +20,7 @@
           <option name="logo_enabled" value="true">
             <options>
               <option name="logo_url" />
-              <option name="html5_logo_url" value="mobile/66LrEbDWiP8.png" />
+              <option name="html5_logo_url" value="mobile/5zsZOHjwDEM.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -71,10 +71,10 @@
           </option>
           <option name="pauseplay" value="true" />
           <option name="replay" value="false" />
-          <option name="search" value="true" />
+          <option name="search" value="false" />
           <option name="closed_captions" value="false" />
           <option name="settings" value="false" />
-          <option name="fullScreenToggle" value="false" />
+          <option name="fullScreenToggle" value="true" />
           <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
@@ -92,7 +92,7 @@
       </optiongroup>
       <optiongroup name="ccOptions">
         <options>
-          <option name="font" value="Kruti Dev 010" />
+          <option name="font" value="Noto Sans Devanagari" />
           <option name="size" value="100" />
           <option name="placement" value="100" />
           <option name="backgroundColor" value="#000000FF" />
@@ -102,7 +102,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns01011000111">
+    <control_layout name="npnxnanbsnfns01011000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -112,7 +112,7 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
@@ -122,12 +122,12 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="true" />
+          <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns01011000111">
+    <control_layout name="pxabnsnfns01011000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -137,7 +137,7 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -147,12 +147,12 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="true" />
+          <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns01011000111">
+    <control_layout name="npxnabnsnfns01011000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -162,7 +162,7 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -172,12 +172,12 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="true" />
+          <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns01011000111">
+    <control_layout name="npnxnanbnsnfns01011000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -187,7 +187,7 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -197,12 +197,12 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="true" />
+          <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns01011000110">
+    <control_layout name="pxabnsnfns01011000100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -212,7 +212,7 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -222,12 +222,12 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="true" />
+          <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pnxanbnsnfns01011000111">
+    <control_layout name="pnxanbnsnfns01011000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -237,7 +237,7 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -247,14 +247,14 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="true" />
+          <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbnsnfns01011000111">
+    <colorscheme name="npnxnanbnsnfns01011000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1432,7 +1432,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbnsnfns01011000111">
+    <string_table name="npnxnanbnsnfns01011000101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1574,7 +1574,7 @@
     </string_table>
   </string_tables>
   <fonts>
-    <font name="Lato">
+    <font name="Noto Sans Devanagari">
       <files>
         <file bold="true" italic="false" />
         <file bold="false" italic="false" />
@@ -1595,16 +1595,6 @@
         <slidelink slideid="_player.5pDcdO6KcSx.6chl78rnzt5" displaytext="समाप्ति" expand="false" type="slide" />
       </links>
     </outline>
-    <search>
-      <slidetext slideid="5pDcdO6KcSx.6DLFQhCQMoN" slidebank="false" type="slide"> e‚mîwy 3 dpps lkexzh çlaldj.k esnk 'kq: djsa 'kq: djsa 'kq: djsa</slidetext>
-      <slidetext slideid="5pDcdO6KcSx.64XaGd0ynDE" slidebank="false" type="slide"> lh[kus ds mís'; bl e‚mîwy esa vki lh[ksaxs: u;wesfvd vªkalqj çfø;k dh hkwfedk vksj blds çdkj ¼,;j çs'kj vksj osd;we qkslz½ dks le&gt;uka flfoax çfø;k vksj mlds çhkko] tsls fd esnk dh xq.koùkk esa lq/kkj] dk kku çkir djuka dyksjhus'ku çfø;k ds egro vksj blds }kjk esnk dh csfdax {kerk c&lt;+kus ds rjhdksa dks le&gt;uka esnk ds fofhkuu pj.kksa ¼flfoax vksj dyksjhus'ku½ ds ek/;e ls qkbuy fedl ds fy, rs;kj djus dh iwjh çfø;k dks lh[kuka esnk dks yach vksj nksvh nwjh ij vªkalqj djus ds fy, mi;ksx dh tkus okyh rduhdksa esa varj dks igpkuuka usdlv cvu fdyd djsa tkjh j[kus ds fy,a </slidetext>
-      <slidetext slideid="5pDcdO6KcSx.6TZXDCcyP9n" slidebank="false" type="slide"> </slidetext>
-      <slidetext slideid="5pDcdO6KcSx.6drkaOHzBMn" slidebank="false" type="slide">  xyr mùkj vkius xyr mùkj pquk gs fqj ls ç;kl djsaa fqj ls ç;kl djsaa fqj ls ç;kl djsaa   गलत उत्तर आपने गलत उत्तर चुना है फिर से प्रयास करें। फिर से प्रयास करें। फिर से प्रयास करें।   lgh mùkj vkius lgh mùkj pquk gs  tkjh j[ksa tkjh j[ksa tkjh j[ksa       gok dk ncko     gok dk ncko     gok dk ncko     gok dk ncko     gok dk ncko     gok dk ncko     osd;we qkslz     osd;we qkslz     osd;we qkslz     osd;we qkslz     osd;we qkslz     osd;we qkslz ç'u 1 yach nwjh rd esnk hkstus ds fy, dksu lh u;wesfvd vªkalqj çfø;k csgrj gs\ lcfev lcfev lcfev</slidetext>
-      <slidetext slideid="5pDcdO6KcSx.5cN0roe3AdH" slidebank="false" type="slide">  xyr mùkj vkius xyr mùkj pquk gs fqj ls ç;kl djsaa fqj ls ç;kl djsaa fqj ls ç;kl djsaa   गलत उत्तर आपने गलत उत्तर चुना है फिर से प्रयास करें। फिर से प्रयास करें। फिर से प्रयास करें।   lgh mùkj vkius lgh mùkj pquk gs  tkjh j[ksa tkjh j[ksa tkjh j[ksa     dsd dks eqyk;e cukuk   dsd dks eqyk;e cukuk   dsd dks eqyk;e cukuk   dsd dks eqyk;e cukuk   dsd dks eqyk;e cukuk   dsd dks eqyk;e cukuk   dsd dks qwyk gqvk cukuk   dsd dks qwyk gqvk cukuk   dsd dks qwyk gqvk cukuk   dsd dks qwyk gqvk cukuk   dsd dks qwyk gqvk cukuk   dsd dks qwyk gqvk cukuk   dsd dks gydk cukuk   dsd dks gydk cukuk   dsd dks gydk cukuk   dsd dks gydk cukuk   dsd dks gydk cukuk   dsd dks gydk cukuk   dsd dks hkkjh cukuk   dsd dks hkkjh cukuk   dsd dks hkkjh cukuk   dsd dks hkkjh cukuk   dsd dks hkkjh cukuk   dsd dks hkkjh cukuk ç'u 2 dyksjhus'ku çfø;k dsd esa buesa ls dksu lk cnyko ugha djrh\ lcfev lcfev lcfev</slidetext>
-      <slidetext slideid="5pDcdO6KcSx.5rXZZSLkr3T" slidebank="false" type="slide">  xyr mùkj vkius xyr mùkj pquk gs fqj ls ç;kl djsaa fqj ls ç;kl djsaa fqj ls ç;kl djsaa   गलत उत्तर आपने गलत उत्तर चुना है फिर से प्रयास करें। फिर से प्रयास करें। फिर से प्रयास करें।   lgh mùkj vkius lgh mùkj pquk gs  tkjh j[ksa tkjh j[ksa tkjh j[ksa     1   1   1   1   1   1   2   2   2   2   2   2   3   3   1   1   1   3   4   1   1   1   1   4 ç'u 3 esnk dks dyksjhus'ku cysamj ls fdruh ckj xqtkjk tkrk gs\ lcfev lcfev lcfev</slidetext>
-      <slidetext slideid="5pDcdO6KcSx.5kNo0Bnik6C" slidebank="false" type="slide"> lkjka'k bl e‚mîwy esa vkius lh[kk: u;wesfvd vªkalqj çfø;k dh hkwfedk vksj blds çdkj ¼,;j çs'kj vksj osd;we qkslz½ dks le&gt;uka flfoax çfø;k vksj mlds çhkko] tsls fd esnk dh xq.koùkk esa lq/kkj] dk kku çkir djuka dyksjhus'ku çfø;k ds egro vksj blds }kjk esnk dh csfdax {kerk c&lt;+kus ds rjhdksa dks le&gt;uka esnk ds fofhkuu pj.kksa ¼flfoax vksj dyksjhus'ku½ ds ek/;e ls qkbuy fedl ds fy, rs;kj djus dh iwjh çfø;k dks lh[kuka esnk dks yach vksj nksvh nwjh ij vªkalqj djus ds fy, mi;ksx dh tkus okyh rduhdksa esa varj dks igpkuuka usdlv cvu fdyd djsa tkjh j[kus ds fy,a </slidetext>
-      <slidetext slideid="5pDcdO6KcSx.6chl78rnzt5" slidebank="false" type="slide"> lekfir c/kkbz gks] vkius iwjk fd;k e‚mîwy 3 dpps lkexzh çlaldj.k esnk can djsa can djsa can djsa vki vc bl dkslz dks can dj ldrs gsaa</slidetext>
-    </search>
   </nav_data>
   <resource_data description="" />
   <transcript_data />
